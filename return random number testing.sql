@@ -1,3 +1,4 @@
+-- For testing in SQL editor:
 DECLARE 
   RetVal NUMBER;
   NUMBER_IN NUMBER;
@@ -8,3 +9,8 @@ BEGIN
   DBMS_OUTPUT.Put_Line('');
   COMMIT; 
 END; 
+
+/*
+Or you can test this function by calling it from dual statement:
+select RETURN_RANDOM_NUMBER(100) from dual;
+*/
