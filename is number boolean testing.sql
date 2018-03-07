@@ -17,7 +17,7 @@ DECLARE
    END;
 BEGIN
    string_in := '123456789'; -- Here change the input string in order to test it
-   retval := is_number_boolean_2 (string_in);
+   retval := is_number_boolean (string_in);
    DBMS_OUTPUT.put_line ('RetVal = ' || bool2char (retval));
    DBMS_OUTPUT.put_line ('');
    COMMIT;
