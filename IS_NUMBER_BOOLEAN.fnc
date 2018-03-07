@@ -1,5 +1,4 @@
-/* Formatted on 07.03.2018 14:08:29 (QP5 v5.269.14213.34746) */
-CREATE OR REPLACE FUNCTION sysvas.is_number_boolean_2 (string_in IN VARCHAR2)
+CREATE OR REPLACE FUNCTION is_number_boolean_2 (string_in IN VARCHAR2)
    RETURN BOOLEAN
 IS
 BEGIN
