@@ -1,5 +1,5 @@
 /* Formatted on 07.03.2018 13:17:04 (QP5 v5.269.14213.34746) */
-CREATE OR REPLACE FUNCTION sysvas.return_random_number (number_in IN NUMBER)
+CREATE OR REPLACE FUNCTION return_random_number (number_in IN NUMBER)
    RETURN NUMBER
 IS
    number_1   CONSTANT NUMBER := 1;
